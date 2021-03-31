@@ -1,0 +1,437 @@
+
+*{
+	text-decoration: none;
+	list-style: none;
+	font-weight: 20px;
+	font-family: cursive;
+	
+	color: black;
+	letter-spacing: 1px;
+	
+}
+
+
+
+
+
+
+
+  .elementos{
+  	scroll-behavior: smooth;
+  	
+  	
+  	display: grid;
+  	grid-template-rows:  repeat(6,1fr);
+  	grid-template-columns:  repeat( 3,1fr);
+
+  }
+
+
+
+
+
+
+.a{
+	
+	background: #00FFFF;
+	padding: 1px ;
+	text-align: center;
+	background-image: url(1_jNGdZPcjAINHhBERw_gwPA.jpeg);
+	background-size: 40px;
+	background-attachment: fixed;
+	
+}
+
+
+
+.header{
+	background:gray;
+	grid-column: 1 /4;
+   grid-row: 1/2;
+   padding: 4px;
+   height: 9cm;
+
+
+
+
+
+}
+
+
+
+.main{
+	background:  #0000FF;
+	grid-column: 1/3;
+	grid-row: 2/ 6;
+	padding: 5px;
+
+
+
+
+
+
+
+
+}
+
+
+
+.aside{
+
+	background: #000080;
+	grid-column:3/4; 
+	grid-row: 2/6;
+	padding: 5px;
+
+}
+
+
+.footer{
+	background: #FF00FF;
+	grid-column: 1/4;
+	grid-row:  6/7;
+	padding: 5px;
+	
+
+
+}
+
+.parrafo h1 {
+color: purple;
+font-size: 70px;
+text-shadow: 8px 8px 8px pink;
+
+}
+
+
+.content_1{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	;
+
+	width: 100%;
+	height:  43px;
+
+	background: white;
+	transition-property: background  transform ;
+	transition-duration : 1s  ;
+ 
+
+	
+	
+}
+
+
+.a_1 {
+
+	font-size: 22px;
+	color: purple;	
+
+}
+
+
+.a_2 {
+
+	font-size: 22px;
+	color: red;	
+
+}
+
+
+.a_3 {
+
+	font-size: 22px;
+	color: blue;	
+}
+
+
+
+.a_4 {
+
+	font-size: 22px;
+	color: green;
+
+	   }
+
+
+
+
+.a_5 {
+
+	font-size: 22px;
+	color: brown;	
+
+}
+
+
+
+
+
+
+.div_1{
+
+	background:white;
+	flex-grow: 1;
+	border: 3px solid purple;	
+	padding:  5px;		
+	height: 43px;
+	text-align: center;
+	transition-property: background ;
+	transition-duration: 2s ;
+
+
+
+
+	
+	 
+
+	 
+
+
+}
+
+
+.div_2{
+	background: white;
+	flex-grow: 1;
+	
+	text-align: center;
+	border: 3px solid orange;	
+	padding:  5px;		
+	height: 43px;
+	transition-property: background ;
+	transition-duration: 2s ;
+	
+
+}
+
+.div_3{
+	background: white;
+	flex-grow: 1;
+	
+	text-align: center;
+
+	border: 3px solid blue;	
+	padding:  5px;		
+	height: 43px;
+	transition-property: background ;
+	transition-duration: 2s ;
+	
+
+}
+
+
+.div_4{
+	background: white;
+	flex-grow: 1;
+	 
+	text-align: center;
+	border: 3px solid green;	
+	padding:  5px;		
+	height: 43px;
+	transition-property: background ;
+	transition-duration: 2s ;
+	
+
+}
+
+
+.div_5{
+	background: white;
+	flex-grow: 1;
+	
+	text-align: center;
+
+	border: 3px solid brown;	
+	padding:  5px;		
+	height: 43px;
+	transition-property: background ;
+	transition-duration: 2s ;
+	
+}
+
+
+
+
+.div_1:hover{
+
+	background: black;
+	transform: scaleY(2);
+
+	
+	
+	
+	
+}
+
+
+
+.div_2:hover{
+	
+	background: black;
+	transform: scaleY(2);
+	
+	
+	
+}
+
+
+.div_3:hover{
+	
+	background: black;
+	transform: scaleY(2);
+	
+	
+}
+
+
+
+.div_4:hover{
+	
+	background: black;
+	transform: scaleY(2);
+	
+	
+}
+
+
+
+.div_5:hover{
+	
+	background: black;
+	transform: scaleY(2);
+	
+	
+}
+
+
+
+
+.content_1:hover{
+	
+	
+	
+   
+}
+
+p {
+	color: white;
+}
+
+,
+.h{
+	color: white;
+	font-size: 12px;
+}
+
+
+
+
+h6{
+	color: black;
+	font-size: 29px; 
+
+}
+
+
+.titulos{
+	background: #C0C0C0;
+	border: 4px solid black;
+	text-align: center;
+}
+
+
+.color1{
+background: #F08080;
+padding: 5px;
+border: 1px solid black
+}
+
+
+.color2{
+	background: #FFA07A;
+	padding: 5px;
+	border: 1px solid black
+}
+
+
+
+.color3{
+	background: #808080;
+	padding: 5px;
+	border: 1px solid black
+}
+
+
+
+
+
+.color1:hover{
+opacity: 0.5;
+
+border: 1px solid white;
+
+}
+
+
+.color2:hover{
+	
+opacity: 0.5;
+
+border: 1px solid white;
+
+	
+}
+
+
+
+.color3:hover{
+	
+	opacity: 0.5;
+
+border: 1px solid white;
+
+	  }
+
+
+.boy{
+	background: yellow;
+	width:5cm;
+	height: 5cm;
+	clip-path: polygon(50% 0%, 64% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	margin: auto;
+	
+	border: 3px solid white;
+	transition-property: all;
+	transition-duration: 2s;
+	text-align: center
+	
+
+
+	   }
+
+.boy:active{
+	
+
+	
+	background: red;
+	width: 3cm;
+	height: 3cm;
+	border: 3px solid white;
+	
+	text-align: center
+	
+
+
+
+
+}
+
+.photo{
+	
+	filter: contrast(2);
+
+
+}
+
